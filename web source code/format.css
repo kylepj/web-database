@@ -1,0 +1,30 @@
+.content
+{
+	width: 50%;
+	text-align: left;
+}
+
+.title
+{
+	font-weight: bold;
+}
+
+table
+{
+	border-collapse: collapse;	
+}
+
+th, td
+{
+	text-align: left;
+	padding: 7px;
+}
+
+table tr:first-child
+{ 
+	font-weight: bold;
+	background-color: white;
+
+}
+
+tr:nth-child(odd){background-color: #99CCFF;}
